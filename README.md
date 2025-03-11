@@ -2,8 +2,6 @@
 Here, comparing actual sales and predicted sales
 # 📈 Sales Prediction using Advertising Dataset
 
-![Sales Prediction](https://d2eofpjy20wlpd.cloudfront.net/predict-big-mart-sales/images/BigMart_Sales_Prediction_Datasets.png)
-
 ## 📌 Overview
 This project aims to predict **sales revenue** based on advertising expenditures using **Machine Learning** techniques. The dataset includes spending on different advertising channels (**TV, Radio, and Newspaper**) and their impact on sales.
 
@@ -25,16 +23,14 @@ The dataset used in this project is the **Advertising dataset** from [Kaggle](ht
 
 ## ⚙️ Installation
 ### 1️⃣ Clone the repository
-```sh
+```
 git clone https://github.com/Ayesha-Siddiqua1/sales-prediction.git
 cd sales-prediction
 ```
 2️⃣ Install dependencies
 Ensure you have Python installed, then install the required libraries:
 
-```sh
-Copy
-Edit
+```
 pip install pandas numpy matplotlib seaborn scikit-learn
 ```
 
@@ -58,9 +54,6 @@ Model is evaluated using Mean Absolute Error (MAE), Mean Squared Error (MSE), an
 🚀 How to Run
 Run the Python script to train the model and make predictions:
 ```
-sh
-Copy
-Edit
 python sales_prediction.py
 ```
 
